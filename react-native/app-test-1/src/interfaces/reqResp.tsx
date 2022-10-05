@@ -3,11 +3,11 @@ export interface ReqRespUsuarioListado {
     per_page:    number;
     total:      number;
     total_pages: number;
-    data:        Datum[];
+    data:        Usuario[];
     support:    Support;
 }
 
-export interface Datum {
+export interface Usuario {
     id:        number;
     email:      string;
     first_name: string;
